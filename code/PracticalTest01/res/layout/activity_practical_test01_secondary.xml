@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ro.pub.cs.systems.pdsd.practicaltest01.PracticalTest01SecondaryActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/numeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearLayout1"
+            android:layout_marginBottom="41dp"
+            android:layout_toLeftOf="@+id/linearLayout1"
+            android:text="Nume" />
+
+        <TextView
+            android:id="@+id/emailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearLayout1"
+            android:layout_marginBottom="41dp"
+            android:layout_toLeftOf="@+id/linearLayout1"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/phoneView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linearLayout1"
+            android:layout_marginBottom="41dp"
+            android:layout_toLeftOf="@+id/linearLayout1"
+            android:text="Phone" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="Ok" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

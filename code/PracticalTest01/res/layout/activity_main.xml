@@ -1,0 +1,45 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="3"
+    android:rowCount="3" >
+
+    <Button
+        android:id="@+id/name"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:text="Phone" />
+
+    <EditText
+        android:id="@+id/mesaj"
+        android:layout_column="2"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/next_activity"
+        android:layout_column="2"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:text="Next Activity" />
+
+</GridLayout>
